@@ -7,6 +7,14 @@
 }
 
 body {
+    background-image: url(./img/photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
     font-family: "Poppins", sans-serif;
     margin: 0;
+}
+
+h1 {
+    color: red;
 }
