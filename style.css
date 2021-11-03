@@ -11,10 +11,33 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 h1 {
-    color: red;
+    font-size: 3rem;
+    
+}
+
+.countdown-container {
+   display: flex;
+}
+
+.big-text {
+    font-size: 5rem;
+    margin: 0 4rem;
+   
+}
+
+.coutdown-el {
+    text-align: center;
+}
+
+.coutdown-el span {
+    font-size: 1.5rem;
 }
